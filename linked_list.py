@@ -3,7 +3,6 @@ class ListNode:
         self.val = val
         self.prev = None
         self.next = None
-
 class MyLinkedList:
 
     def __init__(self):
