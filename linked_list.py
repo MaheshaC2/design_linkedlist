@@ -1,4 +1,5 @@
 class ListNode:
+    
     def __init__(self, val):
         self.val = val
         self.prev = None
@@ -107,7 +108,6 @@ class MyLinkedList:
             cur.next.prev = cur
             
             self.size -= 1
-
 
 ## Example Execution ##
 obj = MyLinkedList()
